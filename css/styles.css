@@ -89,7 +89,6 @@ img {
   }
   .mandaloream {
     width: 100%;
-    border: 4px solid blue;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -98,6 +97,5 @@ img {
   }
   .mandaloream {
     width: 50%;
-    border: 4px solid pink;
   }
 }
