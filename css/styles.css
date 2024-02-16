@@ -1,0 +1,84 @@
+html {
+  font-family: "Sen", sans-serif;
+  box-sizing: border-box;
+  background-color: #040714;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.contenedor-1 {
+  padding: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 1000px) {
+  .contenedor-1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+
+  .parrafo-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mandaloream {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.contenedor-2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5.6vw;
+}
+
+h2 {
+  margin-top: auto;
+  font-weight: weight;
+  font-size: 40px;
+  color: #f9f9f9;
+}
+.container-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;
+}
+p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: silver;
+}
+.padre {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.hijos {
+  width: 334px;
+  height: 200px;
+  border-radius: 1rem;
+  background-image: cover;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.mandaloream {
+  max-width: 50%;
+}
