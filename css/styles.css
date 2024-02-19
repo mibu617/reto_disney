@@ -28,12 +28,13 @@ html {
 }
 
 .contenedor-2 {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
   text-align: center;
   box-sizing: border-box;
-  padding: 5.6vw;
+  padding: 4vw;
 }
 
 h2 {
@@ -54,8 +55,8 @@ p {
   color: silver;
 }
 .padre {
-  margin: auto;
-  max-width: 1200px;
+  max-width: 100vw;
+
   display: flex;
   /* flex-wrap: wrap;
   flex-direction: row; */
@@ -64,8 +65,8 @@ p {
   gap: 24px;
 }
 .hijos {
-  width: 334px;
-  height: 200px;
+  width: 25%;
+  height: auto;
   border-radius: 1rem;
   background-image: cover;
 }
