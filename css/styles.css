@@ -25,6 +25,9 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  .contenedor-2 {
+    flex-direction: row;
+  }
 }
 
 .contenedor-2 {
@@ -60,7 +63,7 @@ p {
   /* flex-wrap: wrap;
   flex-direction: row; */
   flex-flow: row wrap;
-  gap: 24px;
+  gap: 1vw;
   padding: 0;
 }
 .hijos {
