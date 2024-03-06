@@ -221,10 +221,7 @@ img {
     width: 50%;
   }
 }
-_______________________________________________________________________ h4 {
-  margin-top: 0px;
-  color: silver;
-}
+
 .contenedor-3 {
   width: 100%;
   display: flex;
@@ -246,7 +243,11 @@ summary {
   transition: all 300ms ease;
 }
 .contenido-acordeon {
-  padding: 10px;
+  padding: 0 20px 20px 20px;
   background: #13151d;
+  color: silver;
+}
+h4 {
+  margin-top: 0px;
   color: silver;
 }
