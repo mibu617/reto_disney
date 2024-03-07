@@ -112,6 +112,9 @@ h1 {
   h1 {
     font-size: 32px;
   }
+  .boton {
+    width: 60vw;
+  }
   .hero {
     display: none;
   }
