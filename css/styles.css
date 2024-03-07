@@ -191,7 +191,7 @@ p {
   color: silver;
 }
 .padre {
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   /* flex-wrap: wrap;
   flex-direction: row; */
@@ -223,16 +223,17 @@ img {
 }
 
 .contenedor-3 {
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
+  padding: 5.6vw;
   font-size: 20px;
   margin-top: 20px;
   transition: all 300ms ease;
 }
-
+.titulo-c3 {
+  text-align: center;
+}
 summary {
   background: #13151d;
   list-style: none;
@@ -250,4 +251,38 @@ summary {
 h4 {
   margin-top: 0px;
   color: silver;
+}
+
+footer {
+  padding: 5vw;
+
+  font-size: 12px;
+}
+.container-footer {
+  color: silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.imagen-footer {
+  width: 85px;
+}
+.container-footer2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px auto 0;
+  max-width: 1024px;
+  padding: 0 8px;
+  position: relative;
+  gap: 20px;
+}
+.parrafo-footer {
+  text-align: center;
+  font-size: 12px;
 }
