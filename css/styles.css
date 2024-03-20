@@ -63,7 +63,7 @@ nav {
   display: none;
 }
 .contenedor-inicial {
-  margin-left: 3rem;
+  margin-left: 2rem;
   padding: 3rem;
   box-sizing: border-box;
   width: 50%;
@@ -77,19 +77,24 @@ h1 {
   font-size: 44px;
 }
 .boton {
+  text-align: center;
   font-size: 20px;
   color: white;
   padding: 20.5px 33px;
-  margin-bottom: 20px;
   border-radius: 4px;
-  height: auto;
-  width: 60vw;
+  max-width: 700px;
   border-color: transparent;
   background-color: #6421ff;
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 1px;
   overflow: hidden;
+}
+.parrafo-1 {
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .boton:hover {
   background-color: #7828ff;
